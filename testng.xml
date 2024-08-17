@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parametrized test Suite" verbose="1">
+
+    <test name="Navegacion">
+        <classes>
+            <class name="scripts.NavegacionProductos"/>
+        </classes>
+    </test>
+
+
+    <test name="SignUp">
+        <parameter name="userNameParam" value="testwquintanilla9@correo.com" />
+        <parameter name="passwordParam" value="testwquintanilla9" />
+        <classes>
+            <class name="scripts.SignUpTest"/>
+        </classes>
+    </test>
+
+    <test name="LogIn">
+        <parameter name="userNameParam" value="testwquintanilla9@correo.com" />
+        <parameter name="passwordParam" value="testwquintanilla9" />
+        <classes>
+            <class name="scripts.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Contact">
+        <parameter name="emailParam" value="emailPrueba@correo.com" />
+        <parameter name="nameParam" value="Walter Quintanilla" />
+        <parameter name="messageParam" value="Mensaje de Prueba" />
+        <classes>
+            <class name="scripts.ContactTest"/>
+        </classes>
+    </test>
+    <test name="payment">
+        <parameter name="productParam" value="Samsung galaxy s6" />
+        <parameter name="typeParam" value="PHONES" />
+        <parameter name="nameParam" value="Walter Quintanilla" />
+        <parameter name="countryParam" value="El Salvador" />
+        <parameter name="cityParam" value="San Salvador" />
+        <parameter name="cardParam" value="1111225673334445" />
+        <parameter name="monthParam" value="08" />
+        <parameter name="yearParam" value="2025" />
+
+        <classes>
+            <class name="scripts.PlaceOrderTest"/>
+        </classes>
+    </test>
+</suite>
