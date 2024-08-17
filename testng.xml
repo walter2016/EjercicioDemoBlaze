@@ -9,16 +9,16 @@
 
 
     <test name="SignUp">
-        <parameter name="userNameParam" value="testwquintanilla9@correo.com" />
-        <parameter name="passwordParam" value="testwquintanilla9" />
+        <parameter name="userNameParam" value="testWalterQuintanilla@correo.com" />
+        <parameter name="passwordParam" value="testWalterQuintanilla" />
         <classes>
             <class name="scripts.SignUpTest"/>
         </classes>
     </test>
 
     <test name="LogIn">
-        <parameter name="userNameParam" value="testwquintanilla9@correo.com" />
-        <parameter name="passwordParam" value="testwquintanilla9" />
+        <parameter name="userNameParam" value="testWalterQuintanilla@correo.com" />
+        <parameter name="passwordParam" value="testWalterQuintanilla" />
         <classes>
             <class name="scripts.LoginTest"/>
         </classes>
@@ -38,7 +38,7 @@
         <parameter name="nameParam" value="Walter Quintanilla" />
         <parameter name="countryParam" value="El Salvador" />
         <parameter name="cityParam" value="San Salvador" />
-        <parameter name="cardParam" value="1111225673334445" />
+        <parameter name="cardParam" value="1204898934348242" />
         <parameter name="monthParam" value="08" />
         <parameter name="yearParam" value="2025" />
 
